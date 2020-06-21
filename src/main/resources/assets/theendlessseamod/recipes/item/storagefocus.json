@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "my_mod:theendlessseamod",
+  "pattern": [
+    "# #",
+    " Y ",
+    "# #"
+  ],
+  "key": {
+    "Y": {
+      "item": "minecraft:log",
+      "data": 32767
+    },
+    "#": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "theendlessseamod:storagefocus",
+    "count": 4
+  }
+}

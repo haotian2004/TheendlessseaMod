@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "my_mod:theendlessseamod",
+  "pattern": [
+    " # ",
+    " # ",
+    " Y "
+  ],
+  "key": {
+    "Y": {
+      "item": "minecraft:stick",
+      "data": 32767
+    },
+    "#": {
+      "item": "theendlessseamod:falsegrass"
+    }
+  },
+  "result": {
+    "item": "theendlessseamod:falsesword",
+    "nbt": "{ench:[{lvl:2s,id:21s}]}"
+  }
+}

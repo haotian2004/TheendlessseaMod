@@ -1,0 +1,22 @@
+/Creative Inventory
+itemGroup.theendlessseamod=The Endless Sea Mod
+
+//Items
+item.theendlessseaii.name=The Endless Sea II
+item.storagefocus.name=存储核心
+item.wandunbreakable_port.name=不毁手杖杖端
+item.wandunbreakable_stick.name=不毁手杖杖柄
+item.falsepickaxe.name=假搞
+item.falsesword.name=假剑
+item.falseaxe.name=假斧
+item.falseshovel.name=假铲
+
+//Blocks
+tile.falsegrass.name=草方块
+
+//Tooltip
+tile.falsegrass.1.tooltip=§2This is false§r
+tile.falsegrass.shift.1.tooltip=§1切记§r§9它是一种不可再生资源谨慎使用§r
+item.falsepickaxe.1.tooltip=§2This is false§r
+item.falsesword.1.tooltip=§2This is false§r
+item.falseshovel.1.tooltip=§2This is false§r

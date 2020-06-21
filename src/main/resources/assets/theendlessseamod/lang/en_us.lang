@@ -1,0 +1,22 @@
+/Creative Inventory
+itemGroup.theendlessseamod=The Endless Sea Mod
+
+//Items
+item.theendlessseaii.name=The Endless Sea II
+item.storagefocus.name=StorageFocus
+item.wandunbreakable_port.name=WandunbreakablePort
+item.wandunbreakable_stick.name=WandunbreakableStick
+item.falsepickaxe.name=FalsePickaxe
+item.falsesword.name=FalseSword
+item.falseaxe.name=FalseAxe
+item.falseshovel.name=FalseShovel
+
+//Blocks
+block.falsegrass.name=FalseGrass
+
+//Tooltip
+tile.falsegrass.1.tooltip=§2This is false§r
+tile.falsegrass.shift.1.tooltip=§1Remember§r§9It is a non-renewable resource§r
+item.falsepickaxe.1.tooltip=§2This is false§r
+item.falsesword.1.tooltip=§2This is false§r
+item.falseaxe.1.tooltip=§2This is false§r
