@@ -25,8 +25,4 @@ public class Toolfalsepickaxe extends ItemTool {
         this.setCreativeTab(Tabtheendlessseamod.tabtheendlessseamod);
     }
 
-    public float getStrVsBlock(ItemStack stack, IBlockState state) {
-        Material material = state.getMaterial();
-        return material != Material.WOOD && material != Material.PLANTS && material != Material.VINE ? super.getDestroySpeed(stack, state) : this.efficiency;
-    }
 }
