@@ -19,8 +19,9 @@ public class ItemLoader {
     public static Item storagefocus = new Itemstoragefocus().setRegistryName("storagefocus");
     public static Item wandunbreakable_port = new Itemwandunbreakableport().setRegistryName("wandunbreakable_port");
     public static Item wandunbreakable_stick = new Itemwandunbreakablestick().setRegistryName("wandunbreakable_stick");
-    public static Item false_axe = new Toolfalseaxe("false_axe");
     public static Item false_sword = new Swordfalsesword("false_sword");
+    public static Item false_axe = new Toolfalseaxe("false_axe");
+
 
     //block 物品方块注册
     public static void Blockitem(){
