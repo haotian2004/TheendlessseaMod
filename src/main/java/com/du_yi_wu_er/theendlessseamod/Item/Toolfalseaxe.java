@@ -5,6 +5,8 @@ import com.google.common.collect.Sets;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.client.resources.I18n;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Enchantments;
@@ -12,8 +14,10 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemTool;
 import net.minecraft.util.NonNullList;
+import net.minecraft.world.World;
 import net.minecraftforge.common.util.EnumHelper;
 
+import java.util.List;
 import java.util.Set;
 
 public class Toolfalseaxe extends ItemTool {
@@ -40,6 +44,13 @@ public class Toolfalseaxe extends ItemTool {
             ItemStack istack = new ItemStack(this);
             istack.addEnchantment(Enchantments.UNBREAKING, 1);
             list.add(istack);
+        }
+    }
+
+    @Override
+    public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
+        if(flagIn.isAdvanced()){
+            tooltip.add(I18n.format(this.getUnlocalizedName()+".1."+"tooltip"));
         }
     }
 
