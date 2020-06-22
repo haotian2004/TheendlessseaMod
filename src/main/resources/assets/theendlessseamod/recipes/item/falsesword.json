@@ -16,7 +16,6 @@
     }
   },
   "result": {
-    "item": "theendlessseamod:falsesword",
-    "nbt": "{ench:[{lvl:2s,id:21s}]}"
+    "item": "theendlessseamod:false_sword"
   }
 }
