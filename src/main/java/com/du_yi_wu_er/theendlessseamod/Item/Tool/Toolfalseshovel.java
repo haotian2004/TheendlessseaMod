@@ -6,20 +6,20 @@ import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Enchantments;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemSword;
 import net.minecraft.util.NonNullList;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.EnumHelper;
 
 import java.util.List;
 
-public class Swordfalsesword extends ItemSword {
+public class Toolfalseshovel extends ItemSpade {
 
-    private static final Item.ToolMaterial FALSE_SWORD = EnumHelper.addToolMaterial("false_sword",1,6666,3.0F,-1F,15);
+    private static final Item.ToolMaterial FALSE_SHOVEL = EnumHelper.addToolMaterial("false_shovel",1,6666,3.0F,0.7F,15);
 
-    public Swordfalsesword(String name) {
-        super(FALSE_SWORD);
+    public Toolfalseshovel(String name){
+        super(FALSE_SHOVEL);
         this.setUnlocalizedName(name);
         this.setRegistryName(name);
         this.setCreativeTab(Tabtheendlessseamod.tabtheendlessseamod);
@@ -29,7 +29,7 @@ public class Swordfalsesword extends ItemSword {
     public void getSubItems(CreativeTabs tab, NonNullList<ItemStack> list) {
         if (isInCreativeTab(tab)) {
             ItemStack istack = new ItemStack(this);
-            istack.addEnchantment(Enchantments.SHARPNESS, 1);
+            istack.addEnchantment(Enchantments.UNBREAKING, 1);
             list.add(istack);
         }
     }
@@ -40,4 +40,5 @@ public class Swordfalsesword extends ItemSword {
             tooltip.add(I18n.format(this.getUnlocalizedName()+".1."+"tooltip"));
         }
     }
+
 }

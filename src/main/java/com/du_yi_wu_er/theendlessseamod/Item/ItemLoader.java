@@ -3,6 +3,8 @@ package com.du_yi_wu_er.theendlessseamod.Item;
 import com.du_yi_wu_er.theendlessseamod.Block.BlockLoader;
 import com.du_yi_wu_er.theendlessseamod.Item.Tool.Swordfalsesword;
 import com.du_yi_wu_er.theendlessseamod.Item.Tool.Toolfalseaxe;
+import com.du_yi_wu_er.theendlessseamod.Item.Tool.Toolfalsepickaxe;
+import com.du_yi_wu_er.theendlessseamod.Item.Tool.Toolfalseshovel;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -21,7 +23,8 @@ public class ItemLoader {
     public static Item wandunbreakable_stick = new Itemwandunbreakablestick().setRegistryName("wandunbreakable_stick");
     public static Item false_sword = new Swordfalsesword("false_sword");
     public static Item false_axe = new Toolfalseaxe("false_axe");
-
+    public static Item false_pickaxe = new Toolfalsepickaxe("false_pickaxe");
+    public static Item false_shovel = new Toolfalseshovel("false_shovel");
 
     //block 物品方块注册
     public static void Blockitem(){
@@ -39,8 +42,10 @@ public class ItemLoader {
         ForgeRegistries.ITEMS.register(storagefocus);
         ForgeRegistries.ITEMS.register(wandunbreakable_port);
         ForgeRegistries.ITEMS.register(wandunbreakable_stick);
-        ForgeRegistries.ITEMS.register(false_axe);
         ForgeRegistries.ITEMS.register(false_sword);
+        ForgeRegistries.ITEMS.register(false_axe);
+        ForgeRegistries.ITEMS.register(false_pickaxe);
+        ForgeRegistries.ITEMS.register(false_shovel);
     }
 
     //Block 物品材质加载
@@ -58,8 +63,10 @@ public class ItemLoader {
         regsiterRender(storagefocus);
         regsiterRender(wandunbreakable_port);
         regsiterRender(wandunbreakable_stick);
-        regsiterRender(false_axe);
         regsiterRender(false_sword);
+        regsiterRender(false_axe);
+        regsiterRender(false_pickaxe);
+        regsiterRender(false_shovel);
     }
 
     @SideOnly(Side.CLIENT)
