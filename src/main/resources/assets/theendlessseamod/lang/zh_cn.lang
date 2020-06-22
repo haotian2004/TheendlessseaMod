@@ -12,7 +12,7 @@ item.false_axe.name=假斧
 //Blocks
 tile.falsegrass.name=草方块
 
-//Tooltip
+//Tooltips
 tile.falsegrass.1.tooltip=§2This is false§r
 tile.falsegrass.shift.1.tooltip=§1切记§r§9它是一种不可再生资源谨慎使用§r
 item.false_axe.1.tooltip=§2This is false§r
