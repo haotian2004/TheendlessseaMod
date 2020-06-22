@@ -1,14 +1,16 @@
-package com.du_yi_wu_er.theendlessseamod.Item;
+package com.du_yi_wu_er.theendlessseamod.Item.Tool;
 
 import com.du_yi_wu_er.theendlessseamod.tab.Tabtheendlessseamod;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
+import net.minecraft.util.NonNullList;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.EnumHelper;
-import org.lwjgl.input.Keyboard;
 
 import java.util.List;
 
@@ -21,6 +23,15 @@ public class Swordfalsesword extends ItemSword {
         this.setUnlocalizedName(name);
         this.setRegistryName(name);
         this.setCreativeTab(Tabtheendlessseamod.tabtheendlessseamod);
+    }
+
+    @Override
+    public void getSubItems(CreativeTabs tab, NonNullList<ItemStack> list) {
+        if (isInCreativeTab(tab)) {
+            ItemStack istack = new ItemStack(this);
+            istack.addEnchantment(Enchantments.SHARPNESS, 1);
+            list.add(istack);
+        }
     }
 
     @Override

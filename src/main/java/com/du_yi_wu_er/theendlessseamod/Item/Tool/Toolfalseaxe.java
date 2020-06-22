@@ -1,4 +1,4 @@
-package com.du_yi_wu_er.theendlessseamod.Item;
+package com.du_yi_wu_er.theendlessseamod.Item.Tool;
 
 import com.du_yi_wu_er.theendlessseamod.tab.Tabtheendlessseamod;
 import com.google.common.collect.Sets;

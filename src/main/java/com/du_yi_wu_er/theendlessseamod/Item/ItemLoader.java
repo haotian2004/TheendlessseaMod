@@ -1,6 +1,8 @@
 package com.du_yi_wu_er.theendlessseamod.Item;
 
 import com.du_yi_wu_er.theendlessseamod.Block.BlockLoader;
+import com.du_yi_wu_er.theendlessseamod.Item.Tool.Swordfalsesword;
+import com.du_yi_wu_er.theendlessseamod.Item.Tool.Toolfalseaxe;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
