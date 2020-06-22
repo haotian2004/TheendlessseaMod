@@ -5,10 +5,13 @@ import com.google.common.collect.Sets;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemTool;
+import net.minecraft.util.NonNullList;
 import net.minecraftforge.common.util.EnumHelper;
 
 import java.util.Set;
@@ -29,6 +32,15 @@ public class Toolfalseaxe extends ItemTool {
     public float getStrVsBlock(ItemStack stack, IBlockState state) {
         Material material = state.getMaterial();
         return material != Material.WOOD && material != Material.PLANTS && material != Material.VINE ? super.getDestroySpeed(stack, state) : this.efficiency;
+    }
+
+    @Override
+    public void getSubItems(CreativeTabs tab, NonNullList<ItemStack> list) {
+        if (isInCreativeTab(tab)) {
+            ItemStack istack = new ItemStack(this);
+            istack.addEnchantment(Enchantments.UNBREAKING, 1);
+            list.add(istack);
+        }
     }
 
 }
