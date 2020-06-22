@@ -1,7 +1,7 @@
 package com.du_yi_wu_er.theendlessseamod.Item;
 
 import com.du_yi_wu_er.theendlessseamod.Block.BlockLoader;
-import com.du_yi_wu_er.theendlessseamod.Item.Tool.Swordfalsesword;
+import com.du_yi_wu_er.theendlessseamod.Item.Tool.Toolfalsesword;
 import com.du_yi_wu_er.theendlessseamod.Item.Tool.Toolfalseaxe;
 import com.du_yi_wu_er.theendlessseamod.Item.Tool.Toolfalsepickaxe;
 import com.du_yi_wu_er.theendlessseamod.Item.Tool.Toolfalseshovel;
@@ -21,7 +21,7 @@ public class ItemLoader {
     public static Item storagefocus = new Itemstoragefocus().setRegistryName("storagefocus");
     public static Item wandunbreakable_port = new Itemwandunbreakableport().setRegistryName("wandunbreakable_port");
     public static Item wandunbreakable_stick = new Itemwandunbreakablestick().setRegistryName("wandunbreakable_stick");
-    public static Item false_sword = new Swordfalsesword("false_sword");
+    public static Item false_sword = new Toolfalsesword("false_sword");
     public static Item false_axe = new Toolfalseaxe("false_axe");
     public static Item false_pickaxe = new Toolfalsepickaxe("false_pickaxe");
     public static Item false_shovel = new Toolfalseshovel("false_shovel");

@@ -14,11 +14,11 @@ import net.minecraftforge.common.util.EnumHelper;
 
 import java.util.List;
 
-public class Swordfalsesword extends ItemSword {
+public class Toolfalsesword extends ItemSword {
 
     private static final Item.ToolMaterial FALSE_SWORD = EnumHelper.addToolMaterial("false_sword",1,6666,3.0F,-1F,15);
 
-    public Swordfalsesword(String name) {
+    public Toolfalsesword(String name) {
         super(FALSE_SWORD);
         this.setUnlocalizedName(name);
         this.setRegistryName(name);
