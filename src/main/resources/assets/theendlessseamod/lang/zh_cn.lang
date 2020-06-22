@@ -6,10 +6,10 @@ item.theendlessseaii.name=The Endless Sea II
 item.storagefocus.name=存储核心
 item.wandunbreakable_port.name=不毁手杖杖端
 item.wandunbreakable_stick.name=不毁手杖杖柄
-item.falsepickaxe.name=假搞
-item.falsesword.name=假剑
-item.falseaxe.name=假斧
-item.falseshovel.name=假铲
+item.false_pickaxe.name=假搞
+item.false_sword.name=假剑
+item.false_axe.name=假斧
+item.false_shovel.name=假铲
 
 //Blocks
 tile.falsegrass.name=草方块

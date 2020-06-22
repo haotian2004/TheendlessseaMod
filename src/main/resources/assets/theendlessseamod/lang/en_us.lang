@@ -6,10 +6,10 @@ item.theendlessseaii.name=The Endless Sea II
 item.storagefocus.name=StorageFocus
 item.wandunbreakable_port.name=WandunbreakablePort
 item.wandunbreakable_stick.name=WandunbreakableStick
-item.falsepickaxe.name=FalsePickaxe
-item.falsesword.name=FalseSword
-item.falseaxe.name=FalseAxe
-item.falseshovel.name=FalseShovel
+item.false_pickaxe.name=FalsePickaxe
+item.false_sword.name=FalseSword
+item.false_axe.name=FalseAxe
+item.false_shovel.name=FalseShovel
 
 //Blocks
 block.falsegrass.name=FalseGrass
