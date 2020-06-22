@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "my_mod:theendlessseamod",
+  "pattern": [
+    "###",
+    " Y ",
+    " Y "
+  ],
+  "key": {
+    "Y": {
+      "item": "minecraft:stick",
+      "data": 32767
+    },
+    "#": {
+      "item": "theendlessseamod:falsegrass"
+    }
+  },
+  "result": {
+    "item": "theendlessseamod:false_pickaxe",
+    "nbt": "{ench:[{lvl:1s,id:32s}]}"
+  }
+}
