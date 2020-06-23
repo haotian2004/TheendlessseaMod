@@ -22,7 +22,7 @@ import java.util.Set;
 
 public class Toolfalseaxe extends ItemTool {
 
-    private static final Item.ToolMaterial FALSE_AXE = EnumHelper.addToolMaterial("false_axe",1,6666,3.0F,6F,15);
+    private static final Item.ToolMaterial FALSE_AXE = EnumHelper.addToolMaterial("false_axe",1,6666,3.0F,6F,10);
     private static final Set<Block> EFFECTIVE_ON = Sets.newHashSet(new Block[]{Blocks.PLANKS, Blocks.BOOKSHELF, Blocks.LOG, Blocks.LOG2, Blocks.CHEST, Blocks.PUMPKIN, Blocks.LIT_PUMPKIN, Blocks.MELON_BLOCK, Blocks.LADDER, Blocks.WOODEN_BUTTON, Blocks.WOODEN_PRESSURE_PLATE,Blocks.CRAFTING_TABLE});
 
     public Toolfalseaxe(String name){

@@ -23,7 +23,7 @@ import java.util.List;
 
 public class Toolfalsehoe extends ItemHoe {
 
-    public static final Item.ToolMaterial FALSE_HOE = EnumHelper.addToolMaterial("false_hoe",1,6666,3.0F,0.5F,15);
+    public static final Item.ToolMaterial FALSE_HOE = EnumHelper.addToolMaterial("false_hoe",1,6666,3.0F,0.5F,10);
 
     public Toolfalsehoe(String name){
         super(FALSE_HOE);

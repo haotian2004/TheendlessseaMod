@@ -16,7 +16,7 @@ import java.util.List;
 
 public class Toolfalsepickaxe extends ItemPickaxe {
 
-    private static final Item.ToolMaterial FALSE_PICKAXE = EnumHelper.addToolMaterial("false_axe",1,6666,3.0F,0.5F,15);
+    private static final Item.ToolMaterial FALSE_PICKAXE = EnumHelper.addToolMaterial("false_axe",1,6666,3.0F,0.5F,10);
 
     public Toolfalsepickaxe(String name){
         super(FALSE_PICKAXE);

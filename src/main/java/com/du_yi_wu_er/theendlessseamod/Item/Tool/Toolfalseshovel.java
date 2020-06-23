@@ -16,7 +16,7 @@ import java.util.List;
 
 public class Toolfalseshovel extends ItemSpade {
 
-    private static final Item.ToolMaterial FALSE_SHOVEL = EnumHelper.addToolMaterial("false_shovel",1,6666,3.0F,0.7F,15);
+    private static final Item.ToolMaterial FALSE_SHOVEL = EnumHelper.addToolMaterial("false_shovel",1,6666,3.0F,0.7F,10);
 
     public Toolfalseshovel(String name){
         super(FALSE_SHOVEL);

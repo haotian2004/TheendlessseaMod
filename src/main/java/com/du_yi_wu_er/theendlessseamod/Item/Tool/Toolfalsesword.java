@@ -16,7 +16,7 @@ import java.util.List;
 
 public class Toolfalsesword extends ItemSword {
 
-    private static final Item.ToolMaterial FALSE_SWORD = EnumHelper.addToolMaterial("false_sword",1,6666,3.0F,-1F,15);
+    private static final Item.ToolMaterial FALSE_SWORD = EnumHelper.addToolMaterial("false_sword",1,6666,3.0F,3.0F,10);
 
     public Toolfalsesword(String name) {
         super(FALSE_SWORD);
