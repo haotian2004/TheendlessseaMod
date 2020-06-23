@@ -1,10 +1,7 @@
 package com.du_yi_wu_er.theendlessseamod.Item;
 
 import com.du_yi_wu_er.theendlessseamod.Block.BlockLoader;
-import com.du_yi_wu_er.theendlessseamod.Item.Tool.Toolfalsesword;
-import com.du_yi_wu_er.theendlessseamod.Item.Tool.Toolfalseaxe;
-import com.du_yi_wu_er.theendlessseamod.Item.Tool.Toolfalsepickaxe;
-import com.du_yi_wu_er.theendlessseamod.Item.Tool.Toolfalseshovel;
+import com.du_yi_wu_er.theendlessseamod.Item.Tool.*;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -25,6 +22,7 @@ public class ItemLoader {
     public static Item false_axe = new Toolfalseaxe("false_axe");
     public static Item false_pickaxe = new Toolfalsepickaxe("false_pickaxe");
     public static Item false_shovel = new Toolfalseshovel("false_shovel");
+    public static Item false_hoe = new Toolfalsehoe("false_hoe");
 
     //block 物品方块注册
     public static void Blockitem(){
@@ -46,6 +44,7 @@ public class ItemLoader {
         ForgeRegistries.ITEMS.register(false_axe);
         ForgeRegistries.ITEMS.register(false_pickaxe);
         ForgeRegistries.ITEMS.register(false_shovel);
+        ForgeRegistries.ITEMS.register(false_hoe);
     }
 
     //Block 物品材质加载
@@ -67,6 +66,7 @@ public class ItemLoader {
         regsiterRender(false_axe);
         regsiterRender(false_pickaxe);
         regsiterRender(false_shovel);
+        regsiterRender(false_hoe);
     }
 
     @SideOnly(Side.CLIENT)

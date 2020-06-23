@@ -10,6 +10,7 @@ item.false_sword.name=FalseSword
 item.false_axe.name=FalseAxe
 item.false_pickaxe.name=FalsePickaxe
 item.false_shovel.name=FalseShovel
+item.false_hoe.name=FalseHoe
 
 //Blocks
 block.falsegrass.name=FalseGrass
@@ -21,3 +22,4 @@ item.false_sword.1.tooltip=§2This is false§r
 item.false_axe.1.tooltip=§2This is false§r
 item.false_pickaxe.1.tooltip=§2This is false§r
 item.false_shovel.1.tooltip=§2This is false§r
+item.false_hoe.1.tooltip=§2This is false§r

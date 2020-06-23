@@ -10,6 +10,7 @@ item.false_sword.name=假剑
 item.false_axe.name=假斧
 item.false_pickaxe.name=假搞
 item.false_shovel.name=假锹
+item.false_hoe.name=假锄
 
 //Blocks
 tile.falsegrass.name=草方块
@@ -21,3 +22,4 @@ item.false_sword.1.tooltip=§2This is false§r
 item.false_axe.1.tooltip=§2This is false§r
 item.false_pickaxe.1.tooltip=§2This is false§r
 item.false_shovel.1.tooltip=§2This is false§r
+item.false_hoe.1.tooltip=§2This is false§r
