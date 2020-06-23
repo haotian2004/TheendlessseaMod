@@ -47,16 +47,4 @@ public class Toolfalsehoe extends ItemHoe {
             tooltip.add(I18n.format(this.getUnlocalizedName()+".1."+"tooltip"));
         }
     }
-
-    @Override
-    public EnumActionResult onItemUse(EntityPlayer playerIn, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ)
-    {
-        if (ItemDye.applyBonemeal(playerIn.getHeldItem(hand),worldIn, pos))
-        {
-            worldIn.playEvent(2005, pos, 1);
-        }
-        playerIn.getHeldItem(hand).damageItem(150, playerIn);
-
-        return EnumActionResult.SUCCESS;
-    }
 }
