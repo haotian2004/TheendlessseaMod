@@ -5,8 +5,9 @@ import net.minecraft.item.Item;
 
 public class Itemstoragefocus extends Item {
 
-    public Itemstoragefocus() {
-        this.setUnlocalizedName("storagefocus");
+    public Itemstoragefocus(String name) {
+        this.setUnlocalizedName(name);
+        this.setRegistryName(name);
         this.setMaxStackSize(64);
         this.setCreativeTab(Tabtheendlessseamod.tabtheendlessseamod);
     }

@@ -8,8 +8,9 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class Itemtheendlessseaii extends Item {
 
-    public Itemtheendlessseaii () {
-        this.setUnlocalizedName("theendlessseaii");
+    public Itemtheendlessseaii(String name) {
+        this.setUnlocalizedName(name);
+        this.setRegistryName(name);
         this.setMaxStackSize(64);
         this.setCreativeTab(Tabtheendlessseamod.tabtheendlessseamod);
     }

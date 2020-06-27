@@ -13,9 +13,10 @@ import java.util.List;
 
 public class Blockfalsegrass extends Block {
 
-    public Blockfalsegrass(Material minecraft) {
+    public Blockfalsegrass(String nama,Material minecraft) {
         super(minecraft.ROCK);
-        this.setUnlocalizedName("falsegrass");
+        this.setUnlocalizedName(nama);
+        this.setRegistryName(nama);
         this.setHardness(1F);
         this.setHarvestLevel("pickaxe", 0);
         this.setCreativeTab(Tabtheendlessseamod.tabtheendlessseamod);

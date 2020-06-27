@@ -13,11 +13,11 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ItemLoader {
     //Item 实例化
-    // static Item (Item name) = new Item +(Item name)().setRegistryName("name");
-    public static Item theendlessseaii = new Itemtheendlessseaii().setRegistryName("theendlessseaii");
-    public static Item storagefocus = new Itemstoragefocus().setRegistryName("storagefocus");
-    public static Item wandunbreakable_port = new Itemwandunbreakableport().setRegistryName("wandunbreakable_port");
-    public static Item wandunbreakable_stick = new Itemwandunbreakablestick().setRegistryName("wandunbreakable_stick");
+    // static Item (Item name) = new Item class("name");
+    public static Item theendlessseaii = new Itemtheendlessseaii("theendlessseaii");
+    public static Item storagefocus = new Itemstoragefocus("storagefocus");
+    public static Item wandunbreakable_port = new Itemwandunbreakableport("wandunbreakable_port");
+    public static Item wandunbreakable_stick = new Itemwandunbreakablestick("wandunbreakable_stick");
     public static Item false_sword = new Toolfalsesword("false_sword");
     public static Item false_axe = new Toolfalseaxe("false_axe");
     public static Item false_pickaxe = new Toolfalsepickaxe("false_pickaxe");

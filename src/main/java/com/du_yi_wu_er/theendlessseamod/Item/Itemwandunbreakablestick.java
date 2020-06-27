@@ -5,8 +5,9 @@ import net.minecraft.item.Item;
 
 public class Itemwandunbreakablestick extends Item {
 
-    public Itemwandunbreakablestick() {
-        this.setUnlocalizedName("wandunbreakable_stick");
+    public Itemwandunbreakablestick(String name) {
+        this.setUnlocalizedName(name);
+        this.setRegistryName(name);
         this.setMaxStackSize(8);
         this.setCreativeTab(Tabtheendlessseamod.tabtheendlessseamod);
     }

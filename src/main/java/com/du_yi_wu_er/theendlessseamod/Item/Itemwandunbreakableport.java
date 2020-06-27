@@ -5,8 +5,9 @@ import net.minecraft.item.Item;
 
 public class Itemwandunbreakableport extends Item {
 
-    public Itemwandunbreakableport() {
-        this.setUnlocalizedName("wandunbreakable_port");
+    public Itemwandunbreakableport(String name) {
+        this.setUnlocalizedName(name);
+        this.setRegistryName(name);
         this.setMaxStackSize(8);
         this.setCreativeTab(Tabtheendlessseamod.tabtheendlessseamod);
 

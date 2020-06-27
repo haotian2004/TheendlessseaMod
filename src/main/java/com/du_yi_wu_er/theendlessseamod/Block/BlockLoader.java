@@ -6,8 +6,8 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 public class BlockLoader {
     //Block 实例化
-    //public static Block (block name) = new Block+(block name)(Material.ROCK).setRegistryName("block name");
-    public static Block falsegrass = new Blockfalsegrass(Material.ROCK).setRegistryName("falsegrass");
+    //public static Block (block name) = new Block class("name",Material.ROCK);
+    public static Block falsegrass = new Blockfalsegrass("falsegrass",Material.ROCK);
 
     //Block 注册
     public static void Blockblock() {
