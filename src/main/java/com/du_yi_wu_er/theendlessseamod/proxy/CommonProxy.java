@@ -2,6 +2,7 @@ package com.du_yi_wu_er.theendlessseamod.proxy;
 
 import com.du_yi_wu_er.theendlessseamod.Block.BlockLoader;
 import com.du_yi_wu_er.theendlessseamod.Item.ItemLoader;
+import com.du_yi_wu_er.theendlessseamod.fluid.FluidLoader;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -10,6 +11,7 @@ public class CommonProxy {
 
     public void preInit (FMLPreInitializationEvent event)
     {
+        FluidLoader.Fluidfluid();
         ItemLoader.Blockitem();
         ItemLoader.Itemitem();
         BlockLoader.Blockblock();
