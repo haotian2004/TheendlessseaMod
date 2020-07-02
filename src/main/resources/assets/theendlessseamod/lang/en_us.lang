@@ -11,6 +11,7 @@ item.false_axe.name=FalseAxe
 item.false_pickaxe.name=FalsePickaxe
 item.false_shovel.name=FalseShovel
 item.false_hoe.name=FalseHoe
+item.bucket_Mercury.name=Mercury
 
 //Blocks
 block.falsegrass.name=FalseGrass

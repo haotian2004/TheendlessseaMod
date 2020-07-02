@@ -7,7 +7,6 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -24,6 +23,8 @@ public class ItemLoader {
     public static Item false_pickaxe = new Toolfalsepickaxe("false_pickaxe");
     public static Item false_shovel = new Toolfalseshovel("false_shovel");
     public static Item false_hoe = new Toolfalsehoe("false_hoe");
+
+    public static Item bucket_Mercury = new ItemMercury("bucket_Mercury");
 
     //block 物品方块注册
     public static void Blockitem(){
@@ -46,6 +47,8 @@ public class ItemLoader {
         ForgeRegistries.ITEMS.register(false_pickaxe);
         ForgeRegistries.ITEMS.register(false_shovel);
         ForgeRegistries.ITEMS.register(false_hoe);
+
+        ForgeRegistries.ITEMS.register(bucket_Mercury);
     }
 
     //Block 物品材质加载
@@ -68,6 +71,8 @@ public class ItemLoader {
         regsiterRender(false_pickaxe);
         regsiterRender(false_shovel);
         regsiterRender(false_hoe);
+
+        regsiterRender(bucket_Mercury);
     }
 
     @SideOnly(Side.CLIENT)
