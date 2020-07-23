@@ -28,10 +28,6 @@ public class TheEndlessSeaMod {
             serverSide = "com.du_yi_wu_er.theendlessseamod.proxy.CommonProxy")
     public static CommonProxy proxy;
 
-    static {
-        FluidRegistry.enableUniversalBucket();
-    }
-
     @Mod.EventHandler
     public void preInit (FMLPreInitializationEvent event)
     {

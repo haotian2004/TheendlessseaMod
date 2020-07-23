@@ -1,4 +1,4 @@
-/Creative Inventory
+//Creative Inventory
 itemGroup.theendlessseamod=The Endless Sea Mod
 
 //Items
@@ -11,9 +11,6 @@ item.false_axe.name=FalseAxe
 item.false_pickaxe.name=FalsePickaxe
 item.false_shovel.name=FalseShovel
 item.false_hoe.name=FalseHoe
-
-//Fluids
-fluid.Mercury=Mercury
 
 //Blocks
 block.falsegrass.name=FalseGrass
