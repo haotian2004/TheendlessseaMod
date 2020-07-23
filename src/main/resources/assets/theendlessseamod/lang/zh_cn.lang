@@ -13,7 +13,7 @@ item.false_shovel.name=假锹
 item.false_hoe.name=假锄
 
 //Fluids
-fluid.mercury=Mercury
+fluid.Mercury=乳胶
 
 //Blocks
 tile.falsegrass.name=草方块
