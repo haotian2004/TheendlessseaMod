@@ -36,17 +36,13 @@ minecraft {
 // 添加仓库
 repositories {
 
-    maven {
-        // Patchouli
-        name = 'Blamejared Maven'
-        url = 'https://maven.blamejared.com'
-    }
+
 
 }
 
 dependencies {
 
-    compile "vazkii.patchouli:Patchouli:1.0-21.2"
+
 
 }
 
