@@ -1,7 +1,6 @@
 package com.du_yi_wu_er.theendlessseamod;
 
 import com.du_yi_wu_er.theendlessseamod.proxy.CommonProxy;
-import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -9,7 +8,6 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 
 @Mod(modid = TheEndlessSeaMod.MODID, name = TheEndlessSeaMod.NAME, version = TheEndlessSeaMod.VERSION, acceptableRemoteVersions = TheEndlessSeaMod.acceptedMinecraftVersions)
 public class TheEndlessSeaMod {
