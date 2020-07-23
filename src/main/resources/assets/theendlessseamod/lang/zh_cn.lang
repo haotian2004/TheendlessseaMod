@@ -11,7 +11,9 @@ item.false_axe.name=假斧
 item.false_pickaxe.name=假搞
 item.false_shovel.name=假锹
 item.false_hoe.name=假锄
-item.bucket_Mercury.name=乳胶桶
+
+//Fluids
+fluid.mercury=Mercury
 
 //Blocks
 tile.falsegrass.name=草方块

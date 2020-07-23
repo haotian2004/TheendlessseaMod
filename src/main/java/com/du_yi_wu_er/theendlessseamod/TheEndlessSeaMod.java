@@ -1,6 +1,7 @@
 package com.du_yi_wu_er.theendlessseamod;
 
 import com.du_yi_wu_er.theendlessseamod.proxy.CommonProxy;
+import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -26,6 +27,10 @@ public class TheEndlessSeaMod {
             clientSide = "com.du_yi_wu_er.theendlessseamod.proxy.ClientProxy",
             serverSide = "com.du_yi_wu_er.theendlessseamod.proxy.CommonProxy")
     public static CommonProxy proxy;
+
+    static {
+        FluidRegistry.enableUniversalBucket();
+    }
 
     @Mod.EventHandler
     public void preInit (FMLPreInitializationEvent event)

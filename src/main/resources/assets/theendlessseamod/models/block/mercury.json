@@ -1,0 +1,6 @@
+{
+  "parent": "fluid/cube_all",
+  "textures": {
+    "all": "theendlessseamod:fluids/mercury_still"
+  }
+}
