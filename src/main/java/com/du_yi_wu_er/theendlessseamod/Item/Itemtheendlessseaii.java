@@ -11,7 +11,7 @@ public class Itemtheendlessseaii extends Item {
     public Itemtheendlessseaii(String name) {
         this.setUnlocalizedName(name);
         this.setRegistryName(name);
-        this.setMaxStackSize(32);
+        this.setMaxStackSize(64);
         this.setCreativeTab(Tabtheendlessseamod.tabtheendlessseamod);
     }
 

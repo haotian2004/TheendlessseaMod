@@ -49,6 +49,7 @@ public class ItemLoader {
         ForgeRegistries.ITEMS.register(false_hoe);
 
         ForgeRegistries.ITEMS.register(bucket_Mercury);
+
     }
 
     //Block 物品材质加载
