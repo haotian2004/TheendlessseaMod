@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "theendlessseamod:items/false_axe"
+    "layer0": "theendlessseamod:items/tools/false_axe"
   }
 }
