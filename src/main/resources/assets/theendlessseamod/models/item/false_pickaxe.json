@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "theendlessseamod:items/false_pickaxe"
+    "layer0": "theendlessseamod:items/tools/false_pickaxe"
   }
 }
