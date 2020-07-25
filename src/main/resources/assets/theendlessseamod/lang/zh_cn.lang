@@ -11,6 +11,10 @@ item.false_axe.name=假斧
 item.false_pickaxe.name=假搞
 item.false_shovel.name=假锹
 item.false_hoe.name=假锄
+item.quartz_processor_press.name=石英压印模板
+item.printed_quartz_processor.name=石英电路板
+item.redstone_printed_quartz_processor.name=红石石英电路板
+item.quartz_processor.name=石英处理器
 
 //Blocks
 tile.falsegrass.name=草方块

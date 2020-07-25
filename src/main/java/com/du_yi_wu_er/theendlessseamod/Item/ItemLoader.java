@@ -1,6 +1,10 @@
 package com.du_yi_wu_er.theendlessseamod.Item;
 
 import com.du_yi_wu_er.theendlessseamod.Block.BlockLoader;
+import com.du_yi_wu_er.theendlessseamod.Item.Processors.ItemPrintedQuartzProcessor;
+import com.du_yi_wu_er.theendlessseamod.Item.Processors.ItemQuartzProcessor;
+import com.du_yi_wu_er.theendlessseamod.Item.Processors.ItemQuartzProcessorPress;
+import com.du_yi_wu_er.theendlessseamod.Item.Processors.ItemRedstonePrintedQuartzProcessor;
 import com.du_yi_wu_er.theendlessseamod.Item.Tool.*;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -23,6 +27,10 @@ public class ItemLoader {
     public static Item false_pickaxe = new Toolfalsepickaxe("false_pickaxe");
     public static Item false_shovel = new Toolfalseshovel("false_shovel");
     public static Item false_hoe = new Toolfalsehoe("false_hoe");
+    public static Item quartz_processor_press = new ItemQuartzProcessorPress("quartz_processor_press");
+    public static Item printed_quartz_processor = new ItemPrintedQuartzProcessor("printed_quartz_processor");
+    public static Item redstone_printed_quartz_processor = new ItemRedstonePrintedQuartzProcessor("redstone_printed_quartz_processor");
+    public static Item quartz_processor = new ItemQuartzProcessor("quartz_processor");
 
 
     //block 物品方块注册
@@ -46,6 +54,10 @@ public class ItemLoader {
         ForgeRegistries.ITEMS.register(false_pickaxe);
         ForgeRegistries.ITEMS.register(false_shovel);
         ForgeRegistries.ITEMS.register(false_hoe);
+        ForgeRegistries.ITEMS.register(quartz_processor_press);
+        ForgeRegistries.ITEMS.register(printed_quartz_processor);
+        ForgeRegistries.ITEMS.register(redstone_printed_quartz_processor);
+        ForgeRegistries.ITEMS.register(quartz_processor);
     }
 
     //Block 物品材质加载
@@ -68,6 +80,10 @@ public class ItemLoader {
         regsiterRender(false_pickaxe);
         regsiterRender(false_shovel);
         regsiterRender(false_hoe);
+        regsiterRender(quartz_processor_press);
+        regsiterRender(printed_quartz_processor);
+        regsiterRender(redstone_printed_quartz_processor);
+        regsiterRender(quartz_processor);
     }
 
     @SideOnly(Side.CLIENT)

@@ -4,13 +4,17 @@ itemGroup.theendlessseamod=The Endless Sea Mod
 //Items
 item.theendlessseaii.name=The Endless Sea II
 item.storagefocus.name=StorageFocus
-item.wandunbreakable_port.name=WandunbreakablePort
-item.wandunbreakable_stick.name=WandunbreakableStick
+item.wandunbreakable_port.name=Wandunbreakable Port
+item.wandunbreakable_stick.name=Wandunbreakable Stick
 item.false_sword.name=FalseSword
 item.false_axe.name=FalseAxe
 item.false_pickaxe.name=FalsePickaxe
 item.false_shovel.name=FalseShovel
 item.false_hoe.name=FalseHoe
+item.quartz_processor_press.name=Quartz Processor Press
+item.printed_quartz_processor.name=Printed Quartz Processor
+item.redstone_printed_quartz_processor.name=Redstone Printed Quartz Processor
+item.quartz_processor.name=Quartz Processor
 
 //Blocks
 block.falsegrass.name=FalseGrass
