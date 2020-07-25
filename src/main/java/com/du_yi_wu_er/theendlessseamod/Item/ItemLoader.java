@@ -1,10 +1,7 @@
 package com.du_yi_wu_er.theendlessseamod.Item;
 
 import com.du_yi_wu_er.theendlessseamod.Block.BlockLoader;
-import com.du_yi_wu_er.theendlessseamod.Item.Processors.ItemPrintedQuartzProcessor;
-import com.du_yi_wu_er.theendlessseamod.Item.Processors.ItemQuartzProcessor;
-import com.du_yi_wu_er.theendlessseamod.Item.Processors.ItemQuartzProcessorPress;
-import com.du_yi_wu_er.theendlessseamod.Item.Processors.ItemRedstonePrintedQuartzProcessor;
+import com.du_yi_wu_er.theendlessseamod.Item.Processors.*;
 import com.du_yi_wu_er.theendlessseamod.Item.Tool.*;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
