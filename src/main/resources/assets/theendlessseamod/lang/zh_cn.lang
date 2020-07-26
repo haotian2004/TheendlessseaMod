@@ -15,6 +15,9 @@ item.quartz_processor_press.name=石英压印模板
 item.printed_quartz_processor.name=石英电路板
 item.redstone_printed_quartz_processor.name=红石石英电路板
 item.quartz_processor.name=石英处理器
+item.redstone_printed_logic_processor.name=红石逻辑电路板
+item.redstone_printed_engineering_processor.name=红石工程电路板
+item.redstone_printed_calculation_processor.name=红石运算电路板
 
 //Blocks
 tile.falsegrass.name=草方块

@@ -2,6 +2,7 @@ package com.du_yi_wu_er.theendlessseamod.Item;
 
 import com.du_yi_wu_er.theendlessseamod.Block.BlockLoader;
 import com.du_yi_wu_er.theendlessseamod.Item.Processors.*;
+import com.du_yi_wu_er.theendlessseamod.Item.Processors.Quartzs.*;
 import com.du_yi_wu_er.theendlessseamod.Item.Tool.*;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -28,6 +29,9 @@ public class ItemLoader {
     public static Item printed_quartz_processor = new ItemPrintedQuartzProcessor("printed_quartz_processor");
     public static Item redstone_printed_quartz_processor = new ItemRedstonePrintedQuartzProcessor("redstone_printed_quartz_processor");
     public static Item quartz_processor = new ItemQuartzProcessor("quartz_processor");
+    public static Item redstone_printed_logic_processor = new ItemRedstonePrintedLogicProcessor("redstone_printed_logic_processor");
+    public static Item redstone_printed_engineering_processor = new ItemRedstonePrintedEngineeringProcessor("redstone_printed_engineering_processor");
+    public static Item redstone_printed_calculation_processor = new ItemRedstonePrintedCalculationProcessor("redstone_printed_calculation_processor");
 
 
     //block 物品方块注册
@@ -55,6 +59,9 @@ public class ItemLoader {
         ForgeRegistries.ITEMS.register(printed_quartz_processor);
         ForgeRegistries.ITEMS.register(redstone_printed_quartz_processor);
         ForgeRegistries.ITEMS.register(quartz_processor);
+        ForgeRegistries.ITEMS.register(redstone_printed_logic_processor);
+        ForgeRegistries.ITEMS.register(redstone_printed_engineering_processor);
+        ForgeRegistries.ITEMS.register(redstone_printed_calculation_processor);
     }
 
     //Block 物品材质加载
@@ -81,6 +88,9 @@ public class ItemLoader {
         regsiterRender(printed_quartz_processor);
         regsiterRender(redstone_printed_quartz_processor);
         regsiterRender(quartz_processor);
+        regsiterRender(redstone_printed_logic_processor);
+        regsiterRender(redstone_printed_engineering_processor);
+        regsiterRender(redstone_printed_calculation_processor);
     }
 
     @SideOnly(Side.CLIENT)
