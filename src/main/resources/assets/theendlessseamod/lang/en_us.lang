@@ -13,11 +13,11 @@ item.false_shovel.name=FalseShovel
 item.false_hoe.name=FalseHoe
 item.quartz_processor_press.name=Quartz Processor Press
 item.printed_quartz_processor.name=Printed Quartz Processor
-item.redstone_printed_quartz_processor.name=Redstone Printed Quartz Processor
+item.redstone_printed_quartz_processor.name=Redstone Printed Quartz Circuit
 item.quartz_processor.name=Quartz Processor
-item.redstone_printed_logic_processor.name=Redstone Printed Logic Processor
-item.redstone_printed_engineering_processor.name=Redstone Printed Engineering Processor
-item.redstone_printed_calculation_processor.name=Redstone Printed Calculation Processor
+item.redstone_printed_logic_processor.name=Redstone Printed Logic Circuit
+item.redstone_printed_engineering_processor.name=Redstone Printed Engineering Circuit
+item.redstone_printed_calculation_processor.name=Redstone Printed Calculation Circuit
 
 //Blocks
 block.falsegrass.name=FalseGrass
