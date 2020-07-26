@@ -32,6 +32,7 @@ public class ItemLoader {
     public static Item redstone_printed_logic_processor = new ItemRedstonePrintedLogicProcessor("redstone_printed_logic_processor");
     public static Item redstone_printed_engineering_processor = new ItemRedstonePrintedEngineeringProcessor("redstone_printed_engineering_processor");
     public static Item redstone_printed_calculation_processor = new ItemRedstonePrintedCalculationProcessor("redstone_printed_calculation_processor");
+    public static Item processor_binding = new ItemProcessorBinding("processor_binding");
 
 
     //block 物品方块注册
@@ -62,6 +63,7 @@ public class ItemLoader {
         ForgeRegistries.ITEMS.register(redstone_printed_logic_processor);
         ForgeRegistries.ITEMS.register(redstone_printed_engineering_processor);
         ForgeRegistries.ITEMS.register(redstone_printed_calculation_processor);
+        ForgeRegistries.ITEMS.register(processor_binding);
     }
 
     //Block 物品材质加载
@@ -91,6 +93,7 @@ public class ItemLoader {
         regsiterRender(redstone_printed_logic_processor);
         regsiterRender(redstone_printed_engineering_processor);
         regsiterRender(redstone_printed_calculation_processor);
+        regsiterRender(processor_binding);
     }
 
     @SideOnly(Side.CLIENT)
