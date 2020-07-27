@@ -33,6 +33,11 @@ public class ItemLoader {
     public static Item redstone_printed_engineering_processor = new ItemRedstonePrintedEngineeringProcessor("redstone_printed_engineering_processor");
     public static Item redstone_printed_calculation_processor = new ItemRedstonePrintedCalculationProcessor("redstone_printed_calculation_processor");
     public static Item processor_binding = new ItemProcessorBinding("processor_binding");
+    public static Item raw_basic_processor = new ItemRawBasicProcessor("raw_basic_processor");
+    public static Item raw_improved_processor = new ItemRawImprovedProcessor("raw_improved_processor");
+    public static Item raw_advanced_processor = new ItemRawAdvancedProcessor("raw_advanced_processor");
+    public static Item exquisite_construction_core = new ItemExquisiteConstructionCore("exquisite_construction_core");
+    public static Item exquisite_destruction_core = new ItemExquisiteDestructionCore("exquisite_destruction_core");
 
 
     //block 物品方块注册
@@ -64,6 +69,11 @@ public class ItemLoader {
         ForgeRegistries.ITEMS.register(redstone_printed_engineering_processor);
         ForgeRegistries.ITEMS.register(redstone_printed_calculation_processor);
         ForgeRegistries.ITEMS.register(processor_binding);
+        ForgeRegistries.ITEMS.register(raw_basic_processor);
+        ForgeRegistries.ITEMS.register(raw_improved_processor);
+        ForgeRegistries.ITEMS.register(raw_advanced_processor);
+        ForgeRegistries.ITEMS.register(exquisite_construction_core);
+        ForgeRegistries.ITEMS.register(exquisite_destruction_core);
     }
 
     //Block 物品材质加载
@@ -94,6 +104,11 @@ public class ItemLoader {
         regsiterRender(redstone_printed_engineering_processor);
         regsiterRender(redstone_printed_calculation_processor);
         regsiterRender(processor_binding);
+        regsiterRender(raw_basic_processor);
+        regsiterRender(raw_improved_processor);
+        regsiterRender(raw_advanced_processor);
+        regsiterRender(exquisite_construction_core);
+        regsiterRender(exquisite_destruction_core);
     }
 
     @SideOnly(Side.CLIENT)

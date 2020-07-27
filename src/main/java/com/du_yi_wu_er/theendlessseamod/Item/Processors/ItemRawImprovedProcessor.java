@@ -9,8 +9,8 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class ItemProcessorBinding extends Item {
-    public ItemProcessorBinding(String name) {
+public class ItemRawImprovedProcessor extends Item {
+    public ItemRawImprovedProcessor(String name) {
         this.setUnlocalizedName(name);
         this.setRegistryName(name);
         this.setMaxStackSize(64);
