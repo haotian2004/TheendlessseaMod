@@ -6,11 +6,17 @@ item.theendlessseaii.name=The Endless Sea II
 item.storagefocus.name=StorageFocus
 item.wandunbreakable_port.name=Wandunbreakable Port
 item.wandunbreakable_stick.name=Wandunbreakable Stick
+item.one_borer_essence.name=One Borer Essence
+item.two_borer_essence.name=Two Borer Essence
+item.infused_stick.name=Infused Stick
+item.mana_leather.name=Mana Leather
+#tools
 item.false_sword.name=FalseSword
 item.false_axe.name=FalseAxe
 item.false_pickaxe.name=FalsePickaxe
 item.false_shovel.name=FalseShovel
 item.false_hoe.name=FalseHoe
+#processors
 item.quartz_processor_press.name=Quartz Processor Press
 item.printed_quartz_processor.name=Printed Quartz Processor
 item.redstone_printed_quartz_processor.name=Redstone Printed Quartz Circuit
@@ -21,7 +27,6 @@ item.redstone_printed_calculation_processor.name=Redstone Printed Calculation Ci
 item.raw_basic_processor.name=Raw Basic Processor
 item.raw_improved_processor.name=Raw Improved Processor
 item.raw_advanced_processor.name=Raw Advanced Processor
-
 item.exquisite_construction_core.name=Exquisite Construction Core
 item.exquisite_destruction_core.name=Exquisite Destruction Core
 

@@ -38,6 +38,10 @@ public class ItemLoader {
     public static Item raw_advanced_processor = new ItemRawAdvancedProcessor("raw_advanced_processor");
     public static Item exquisite_construction_core = new ItemExquisiteConstructionCore("exquisite_construction_core");
     public static Item exquisite_destruction_core = new ItemExquisiteDestructionCore("exquisite_destruction_core");
+    public static Item one_borer_essence = new ItemOneBorerEssence("one_borer_essence");
+    public static Item two_borer_essence = new ItemTwoBorerEssence("two_borer_essence");
+    public static Item infused_stick = new ItemInfusedStick("infused_stick");
+    public static Item mana_leather = new ItemManaLeather("mana_leather");
 
 
     //block 物品方块注册
@@ -74,6 +78,10 @@ public class ItemLoader {
         ForgeRegistries.ITEMS.register(raw_advanced_processor);
         ForgeRegistries.ITEMS.register(exquisite_construction_core);
         ForgeRegistries.ITEMS.register(exquisite_destruction_core);
+        ForgeRegistries.ITEMS.register(one_borer_essence);
+        ForgeRegistries.ITEMS.register(two_borer_essence);
+        ForgeRegistries.ITEMS.register(infused_stick);
+        ForgeRegistries.ITEMS.register(mana_leather);
     }
 
     //Block 物品材质加载
@@ -109,6 +117,10 @@ public class ItemLoader {
         regsiterRender(raw_advanced_processor);
         regsiterRender(exquisite_construction_core);
         regsiterRender(exquisite_destruction_core);
+        regsiterRender(one_borer_essence);
+        regsiterRender(two_borer_essence);
+        regsiterRender(infused_stick);
+        regsiterRender(mana_leather);
     }
 
     @SideOnly(Side.CLIENT)

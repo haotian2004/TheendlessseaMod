@@ -6,11 +6,17 @@ item.theendlessseaii.name=The Endless Sea II
 item.storagefocus.name=存储核心
 item.wandunbreakable_port.name=不毁手杖杖端
 item.wandunbreakable_stick.name=不毁手杖杖柄
+item.one_borer_essence.name=螟精华
+item.two_borer_essence.name=二化螟精华
+item.infused_stick.name=聚星木棍
+item.mana_leather.name=魔力皮革
+#tools
 item.false_sword.name=假剑
 item.false_axe.name=假斧
 item.false_pickaxe.name=假搞
 item.false_shovel.name=假锹
 item.false_hoe.name=假锄
+#processors
 item.quartz_processor_press.name=石英压印模板
 item.printed_quartz_processor.name=石英电路板
 item.redstone_printed_quartz_processor.name=红石石英电路板
@@ -22,7 +28,6 @@ item.processor_binding.name=处理器粘合物
 item.raw_basic_processor.name=原始基础处理器
 item.raw_improved_processor.name=原始进阶处理器
 item.raw_advanced_processor.name=原始高级处理器
-
 item.exquisite_construction_core.name=精致成型核心
 item.exquisite_destruction_core.name=精致破坏核心
 
