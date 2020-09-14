@@ -14,6 +14,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ItemLoader {
+    //
     //Item 实例化
     // static Item (Item name) = new Item class("name");
     public static Item theendlessseaii = new Itemtheendlessseaii("theendlessseaii");
