@@ -43,12 +43,14 @@ public class ItemLoader {
     public static Item two_borer_essence = new ItemTwoBorerEssence("two_borer_essence");
     public static Item infused_stick = new ItemInfusedStick("infused_stick");
     public static Item mana_leather = new ItemManaLeather("mana_leather");
+    public static Item infused_clay = new ItemInfusedClay("infused_clay");
 
 
     //block 物品方块注册
     public static void Blockitem(){
         //registeritemblock(BlockLoader.Block name);
         registeritemblock(BlockLoader.falsegrass);
+        registeritemblock(BlockLoader.infused_clay_block);
     }
 
     public static void registeritemblock(Block block) {
@@ -83,6 +85,7 @@ public class ItemLoader {
         ForgeRegistries.ITEMS.register(two_borer_essence);
         ForgeRegistries.ITEMS.register(infused_stick);
         ForgeRegistries.ITEMS.register(mana_leather);
+        ForgeRegistries.ITEMS.register(infused_clay);
     }
 
     //Block 物品材质加载
@@ -90,6 +93,7 @@ public class ItemLoader {
     public static void BlockitemregisterRenders() {
         //regsiterRender(Item.getItemFromBlock(BlockLoader.材质名);
         regsiterRender(Item.getItemFromBlock(BlockLoader.falsegrass));
+        regsiterRender(Item.getItemFromBlock(BlockLoader.infused_clay_block));
     }
 
     //Item 物品材质加载
@@ -122,6 +126,7 @@ public class ItemLoader {
         regsiterRender(two_borer_essence);
         regsiterRender(infused_stick);
         regsiterRender(mana_leather);
+        regsiterRender(infused_clay);
     }
 
     @SideOnly(Side.CLIENT)

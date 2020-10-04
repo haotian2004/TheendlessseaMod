@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "my_mod:theendlessseamod",
+  "ingredients": [
+    {
+      "item": "theendlessseamod:infused_clay_block"
+    }
+  ],
+  "result": {
+    "item": "theendlessseamod:infused_clay",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "my_mod:theendlessseamod",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "theendlessseamod:infused_clay"
+    }
+  },
+  "result": {
+    "item": "theendlessseamod:infused_clay_block"
+  }
+}

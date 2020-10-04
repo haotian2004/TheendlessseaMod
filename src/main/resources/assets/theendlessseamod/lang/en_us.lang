@@ -1,7 +1,7 @@
-//Creative Inventory
+#Creative Inventory
 itemGroup.theendlessseamod=The Endless Sea Mod
 
-//Items
+#Items
 item.theendlessseaii.name=The Endless Sea II
 item.storagefocus.name=StorageFocus
 item.wandunbreakable_port.name=Wandunbreakable Port
@@ -10,6 +10,7 @@ item.one_borer_essence.name=One Borer Essence
 item.two_borer_essence.name=Two Borer Essence
 item.infused_stick.name=Infused Stick
 item.mana_leather.name=Mana Leather
+item.infused_clay.name=Infused Clay
 #tools
 item.false_sword.name=FalseSword
 item.false_axe.name=FalseAxe
@@ -30,10 +31,11 @@ item.raw_advanced_processor.name=Raw Advanced Processor
 item.exquisite_construction_core.name=Exquisite Construction Core
 item.exquisite_destruction_core.name=Exquisite Destruction Core
 
-//Blocks
+#Blocks
 block.falsegrass.name=FalseGrass
+block.infused_clay_block.name=Infused Clay Block
 
-//Tooltip
+#Tooltip
 tile.falsegrass.1.tooltip=§2This is false§r
 tile.falsegrass.shift.1.tooltip=§1Remember§r§9It is a non-renewable resource§r
 item.false_sword.1.tooltip=§2This is false§r

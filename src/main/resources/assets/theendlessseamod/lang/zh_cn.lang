@@ -1,7 +1,7 @@
-//Creative Inventory
+#Creative Inventory
 itemGroup.theendlessseamod=The Endless Sea Mod
 
-//Items
+#Items
 item.theendlessseaii.name=The Endless Sea II
 item.storagefocus.name=存储核心
 item.wandunbreakable_port.name=不毁手杖杖端
@@ -10,6 +10,7 @@ item.one_borer_essence.name=螟精华
 item.two_borer_essence.name=二化螟精华
 item.infused_stick.name=聚星木棍
 item.mana_leather.name=魔力皮革
+item.infused_clay.name=聚星粘土
 #tools
 item.false_sword.name=假剑
 item.false_axe.name=假斧
@@ -31,10 +32,11 @@ item.raw_advanced_processor.name=原始高级处理器
 item.exquisite_construction_core.name=精致成型核心
 item.exquisite_destruction_core.name=精致破坏核心
 
-//Blocks
+#Blocks
 tile.falsegrass.name=草方块
+tile.infused_clay_block.name=聚星粘土块
 
-//Tooltip
+#Tooltip
 tile.falsegrass.1.tooltip=§2This is false§r
 tile.falsegrass.shift.1.tooltip=§1切记§r§9它是一种不可再生资源谨慎使用§r
 item.false_sword.1.tooltip=§2This is false§r
