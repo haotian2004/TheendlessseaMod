@@ -44,6 +44,7 @@ public class ItemLoader {
     public static Item infused_stick = new ItemInfusedStick("infused_stick");
     public static Item mana_leather = new ItemManaLeather("mana_leather");
     public static Item infused_clay = new ItemInfusedClay("infused_clay");
+    public static Item crystal_ember_blend = new ItemCrystalEmberBlend("crystal_ember_blend");
 
 
     //block 物品方块注册
@@ -86,6 +87,7 @@ public class ItemLoader {
         ForgeRegistries.ITEMS.register(infused_stick);
         ForgeRegistries.ITEMS.register(mana_leather);
         ForgeRegistries.ITEMS.register(infused_clay);
+        ForgeRegistries.ITEMS.register(crystal_ember_blend);
     }
 
     //Block 物品材质加载
@@ -127,6 +129,7 @@ public class ItemLoader {
         regsiterRender(infused_stick);
         regsiterRender(mana_leather);
         regsiterRender(infused_clay);
+        regsiterRender(crystal_ember_blend);
     }
 
     @SideOnly(Side.CLIENT)
