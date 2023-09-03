@@ -27,7 +27,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-    - name: Upload jar
+    - name: Upload jars
       uses: actions/upload-artifact@v2
       with:
           name: mod-debug
